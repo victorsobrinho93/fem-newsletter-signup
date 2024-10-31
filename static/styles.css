@@ -164,8 +164,8 @@ img {
 
 @media (max-width: 960px), (orientation: portrait) {
     #container {
-        height: 100vh;
-        width: 100vw;
+        height: 100%;
+        width: 100%;
         border-radius: 0;
         padding: 0;
         margin: 0;
@@ -177,8 +177,6 @@ img {
         flex-direction: column-reverse;
         align-items: center;
         height: 100%;
-        /* max-width: 100vw; */
-        /* align-self: center; */
     }
 
     #main-page-illustration {
