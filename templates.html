@@ -1,0 +1,34 @@
+<template id="subscription-page">
+    <div id="left-content" class="flex-cl">
+        <h1>Stay updated!</h1>
+        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+        <ul class="flex-cl">
+            <li>Product discovery and building what matters</li>
+            <li>Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+        </ul>
+        <form id="main-form" class="flex-cl" novalidate>
+            <div class="email-field flex-cl">
+                <div style="display: flex; justify-content: space-between">
+                    <label for="email" class="email-label">Email address</label>
+                    <label for="email" class="email-label invalid-label"
+                        >Valid email required</label
+                    >
+                </div>
+
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    class="ib-default"
+                    placeholder="email@company.com" />
+            </div>
+            <button type="submit" class="btn ib-default">
+                Subscribe to monthly newsletter
+            </button>
+        </form>
+    </div>
+    <div id="right-image">
+        <img src="assets/images/illustration-sign-up-desktop.svg" alt="" />
+    </div>
+</template>
