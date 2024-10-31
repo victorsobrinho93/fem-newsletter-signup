@@ -163,6 +163,10 @@ img {
 }
 
 @media (max-width: 960px), (orientation: portrait) {
+    h1 {
+        font-size: 13vw;
+    }
+
     #container {
         height: 100%;
         width: 100%;
@@ -171,6 +175,12 @@ img {
         margin: 0;
         align-items: center;
         overflow: hidden;
+        & p {
+            font-size: 5vw;
+        }
+        & li {
+            font-size: 4vw;
+        }
     }
     #main-wrapper {
         display: flex;
